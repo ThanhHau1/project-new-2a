@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><b>Câu 1: Bài tập về thẻ video</b></h1>
+    <span><b>Yêu cầu: </b>Tạo thư mục đặt tên là videos, sau đó để video bất kỳ vào thư mục videos đó. Tiếp theo, chèn
+        video
+        đó vào trang web bằng cách sử dụng thẻ video và thẻ source. Đường dẫn video là dạng relative (Đường dẫn
+        tương đối). Đặt kích thước video có width bằng 720 và height bằng 405 (tương đương tỷ lệ 16/9).</span>
+    <br>
+
+    <video width="720px" height="405px" controls>
+        <source src="/Bai2/video/video-1.mp4">
+    </video>
+
+    <h2><b>Câu 2: Bài tập về thẻ table</b></h2>
+    <span><b>Yêu cầu: </b>Dùng thẻ table, thead, tbody, tr, th, td đã được học để vẽ bảng sau:</span>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3"><b>Hóa đơn số 1324</b></th>
+                <th><b>Ngày 20/11/2022</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <p><b>Thông tin khách hàng</b></p>
+                    <p>Họ tên: Đặng Phương Nam</p>
+                    <p>Số điện thoai: 0123456789</p>
+                    <p>Địa chỉ: số 132, đường Abc,thanh phố Hà Nội.</p>
+                </td>
+                <td colspan="2">
+                    <p><b>Thông tin vận chuyển đơn hàng</b></p>
+                    <p>Họ tên: Đặng Phương Nam</p>
+                    <p>Số điện thoai: 0987654321</p>
+                    <p>Địa chỉ: số 234, đường Abc,thanh phố Hà Nội.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Tên sản phẩm</b></td>
+                <td><b>Số lượng</b></td>
+                <td><b>Đơn giá</b></td>
+                <td><b>Thành tiền</b></td>
+            </tr>
+            <tr>
+                <td>Giày nam cao cấp</td>
+                <td>2</td>
+                <td>800.000đ</td>
+                <td>1.600.000đ</td>
+            </tr>
+            <tr>
+                <td>Giày nữ cao cấp</td>
+                <td>1</td>
+                <td>500.000đ</td>
+                <td>1.000.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="3"><b>Tạm tính</b></td>
+                <td>2.600.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="3"><b>Thuế VAT 10%</b></td>
+                <td>260.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="3"><b>Tổng tiền</b></td>
+                <td>2.860.000đ</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+
+    <h2><b>Câu 3: Bài tập về thẻ ul,ol,li</b></h2>
+    <br>
+
+    <span><b>Yêu cầu 1: </b>Tạo danh sách sau sử dụng thẻ ul, li</span>
+
+    <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+    </ul>
+    <br>
+    <span><b>Yêu cầu 2: </b>Tạo danh sách sau sử dụng thẻ ol, li</span>
+    <ol type="1">
+        <li>Thời trang</li>
+        <li>Công nghệ</li>
+        <li>Đồ điện tử</li>
+        <li>Đồ gia dụng</li>
+    </ol>
+    <br>
+    <span><b>Yêu cầu 3: </b>Tạo danh sách sau sử dụng thẻ ol, li. Có kiểu là chữ La mã viết hoa</span>
+    <ol type="I">
+        <li>Hoc HTML5</li>
+        <li>Học CSS3</li>
+        <li>Học Bootstrap 4</li>
+        <li>Học Javascript</li>
+    </ol>
+    <br>
+    <span><b>Yêu cầu 4: </b>Tạo danh sách sau sử dụng thẻ ul, li</span>
+    <ul type="square">
+        <li>Cars</li>
+        <ul type="circle">
+            <li>BMW</li>
+            <ul type="square">
+                <li>BMW X5</li>
+                <li>BMW X7</li>
+                <li>BMW Z4</li>
+                <li>BMW M2</li>
+            </ul>
+            <li>Audi</li>
+            <ul type="square">
+                <li>Audi Q8</li>
+                <li>Audi Q7 2020</li>
+                <li>Audi Q3</li>
+                <li>Audi A7</li>
+            </ul>
+            <li>Mercedes</li>
+            <li>Jaguar</li>
+            <ul type="square">
+                <li>Jaguar XF</li>
+                <li>Jaguar XE</li>
+                <li>Jaguar E Pace</li>
+                <li>Jaguar I Pace</li>
+            </ul>
+            <li>Lamborghini</li>
+        </ul>
+        <li>Bikes</li>
+        <ul type="disc">
+            <li>Apache</li>
+            <li>KTM</li>
+            <li>R15</li>
+            <li>Ducati</li>
+            <li>Harley-Davidson</li>
+        </ul>
+        <li>Aeroplanes</li>
+        <ul type="circle">
+            <li>Air India</li>
+            <li>Indigo</li>
+            <li>Vistara</li>
+            <li>GoAir</li>
+            <li>SpiceJet</li>
+        </ul>
+        <li>Trains</li>
+        <li>Ships</li>
+    </ul>
+    <br>
+    <br>
+    <span><b>Yêu cầu 5: </b>Tạo danh sách sau sử dụng thẻ ol, li</span>
+    <ol type="I">
+        <li>Background Skills</li>
+        <ol type="A">
+            <li>Unix Commands</li>
+            <li>Vim Test Editors</li>
+        </ol>
+        <li>HTML</li>
+        <ol type="A">
+            <li>Minimal Page</li>
+            <li>Headings</li>
+            <li>Elements</li>
+            <li>Lists</li>
+            <ol type="i">
+                <li>Unordered</li>
+                <li>Ordered</li>
+                <li>Definition</li>
+                <li>Nested</li>
+            </ol>
+            <li>Links</li>
+            <ol type="i">
+                <li>Absolute</li>
+                <li>Relative</li>
+            </ol>
+            <li>Images</li>
+        </ol>
+        <li>CSS</li>
+        <ol type="A">
+            <li>Anatomy</li>
+            <li>Basic Selectors</li>
+            <ol type="i">
+                <li>Element</li>
+                <li>Class</li>
+                <li>ID</li>
+                <li>Group</li>
+            </ol>
+            <li>The DOM</li>
+            <li>Advanced Selectors</li>
+            <li>Box Model</li>
+        </ol>
+        <li>Programming</li>
+        <ol type="A">
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ol>
+        <li>Database</li>
+        <ol type="A">
+            <li>Flat File</li>
+            <li>Relational</li>
+        </ol>
+    </ol>
+</body>
+
+</html>
